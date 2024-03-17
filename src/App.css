@@ -1,6 +1,7 @@
 body{
  background-color: 
 #FBFCFD;
+
 }
 /* .main {
 
@@ -13,6 +14,8 @@ display: flex;
 /* } */ 
 
 .main {
+  margin: 0;
+  padding: 0;
     display: flex;
     justify-content: center;
     /* Set margins to create left and right spacing */
