@@ -1,0 +1,110 @@
+.related_deals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .card_container {
+    width: 333px;
+    height: 425px;
+    // top: 1860px;
+    // left: 300px;
+    border-radius: 12px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+      justify-content: center;
+      align-items: center;
+      width: 292px;
+      height: 382px;
+      .img1 {
+        width: 141px;
+        height: 103px;
+      }
+      .options {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        .op2 {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 3px;
+          width: 62%;
+          .btn1 {
+            cursor: pointer;
+            text-align: center;
+            color: gray;
+            border-radius: 8px;
+            font-size: 14px;
+            min-width: 69px;
+            color: #074786;
+            background-color: #f2f4f7;
+            border: none;
+            height: 28px;
+          }
+        }
+        text {
+          margin-top: 5px;
+          text-align: center;
+          color: #626e79;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .heading {
+          text-align: start;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #626e79;
+        }
+        .price {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-end;
+          justify-content: flex-start;
+          margin-top: 7px;
+          width: 69%;
+          gap: 7px;
+          .price_1 {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            color: #5c6874;
+          }
+          .price_2 {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #9fa9b3;
+          }
+          .offer {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 21px;
+            color: #ef4c5d;
+          }
+        }
+        .btn {
+          // cursor-pointer min-w-[292px] mt-[13px] text-base text-center" shape="round" size="md"\
+          margin-top: 13px;
+          cursor: pointer;
+          text-align: center;
+          border-radius: 12px;
+          background-color: #1b88f4;
+          width: 292px;
+          height: 48px;
+          border: none;
+        }
+      }
+    }
+  }
+}

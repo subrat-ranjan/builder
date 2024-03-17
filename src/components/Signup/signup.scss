@@ -1,0 +1,64 @@
+.signup {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  .subject {
+    max-width: 396px;
+    // min-height: 88px;
+
+    .text {
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 44px;
+      color: #5c6874;
+    }
+  }
+  .inputemail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    flex-wrap: wrap;
+    input {
+      width: 345px;
+      height: 50px;
+      border-radius: 12px 0px 0px 12px;
+      background-color: #ffffff;
+      border-color: #e2e7ec;
+    }
+    .btn4 {
+      width: 97px;
+      height: 52px;
+      font-size: 14px;
+      line-height: 20px;
+      align-items: center;
+      text-align: center;
+      background-color: #1b88f4;
+      border-radius: 0px 12px 12px 0px;
+      border: none;
+    }
+  }
+  @media only screen and (max-width: 850px) {
+    .inputemail {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      //   flex-wrap: wrap;
+      input {
+        display: flex;
+        justify-content: flex-start;
+        // flex-wrap: wrap;
+        // align-items: center;
+        width: 250px;
+        height: 48px;
+        border-radius: 12px 12px 12px 12px;
+      }
+      .btn4 {
+        border-radius: 12px 12px 12px 12px;
+      }
+    }
+  }
+}
